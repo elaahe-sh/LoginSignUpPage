@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sign up</title>
+  </head>
+
+  <body class="beach-bg2">
+    <div class="main">
+      <p class="sign" align="center">ثبت نام</p>
+      <form class="form1">
+        <input
+          name="email"
+          id="email"
+          class="un"
+          type="email"
+          align="center"
+          placeholder="ایمیل"
+        />
+        <input
+          name="phoneNumber"
+          id="phoneNumber"
+          class="un"
+          type="text"
+          align="center"
+          placeholder="شماره تماس"
+        />
+        <input
+          name="password"
+          id="password"
+          class="un"
+          type="password"
+          align="center"
+          placeholder="رمز عبور"
+        />
+        <input
+          id="verifypass"
+          class="un"
+          type="password"
+          align="center"
+          placeholder="تایید رمز عبور"
+        />
+        <button class="submit" id="btn-submit" align="center" type="submit">
+          ثبت نام
+        </button>
+      </form>
+    </div>
+  </body>
+
+  <script>
+    document.querySelector("#btn-submit").addEventListener("click", () => {
+      alert("ثبت نام موفیقت آمیز بود!");
+    });
+  </script>
+  
+</html>
